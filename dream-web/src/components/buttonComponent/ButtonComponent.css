@@ -1,0 +1,37 @@
+.buttonContainer {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonText {
+  font-size: 0.7em;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.buttonImg {
+  height: 6vh;
+  width: 4vw;
+}
+
+@media screen and (max-width: 768px) {
+  .buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .buttonText {
+    font-size: 1em;
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  .buttonImg {
+    height: 10vh;
+    width: 7vw;
+  }
+}
